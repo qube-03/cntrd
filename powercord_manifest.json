@@ -1,0 +1,9 @@
+{
+    "name": "cntrd",
+    "description": "a theme that makes sense",
+    "version": "1.0",
+    "author": "qube#3925",
+    "theme": "cntrd.css",
+    "consent": "false",
+    "license": "GPL3"
+}
