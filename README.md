@@ -1,13 +1,21 @@
 # cntrd
 a discord css theme that makes sense and points you to its center!
 
+
 ## install
+
 cd to your powercord folder and to its theme folder, e.g.:
+
 `powercord/src/Powercord/themes`
+
 then run:
+
 `git clone https://github.com/qube-03/cntrd`
+
 next, reload discord and youre done!
+
 enjoy!
+
 
 ##screenshots
 ![sc1](https://user-images.githubusercontent.com/92535344/170728326-64cf822f-6067-4be1-8716-a6091cee6b57.png)
