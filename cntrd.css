@@ -1,42 +1,118 @@
+*
+{ font-family: DejaVuSansMono Nerd Font !important;
+  transition: filter 0s !important;
+  border-radius: 3px !important;
+  mask: none !important; }
+
+
+
+
+.icon-3AqZ2e,
+.childWrapper-1j_1ub
+{ border-radius: 0px 14px 14px 0px !important; }
+.iconBadge-32fMme
+{ border-radius: 0px 14px 0px 0px !important; }
+.avatar-b5OQ1N
+{ border-radius: 8px 0px 0px 8px !important; }
+.wrapper-28eC3z>.lowerBadge-3WTshO>.numberBadge-37OJ3S
+{ border-radius: 0px 0px 12px 0px !important; }
+.button-1EGGcP[ aria-label="Turn Off Camera" ],
+.button-1EGGcP[ aria-label="Turn On Camera" ]
+{ border-radius: 10px 0px 0px 10px !important; }
+.button-1EGGcP[ aria-label="Share Your Screen" ]
+{ border-radius: 0px 10px 10px 0px !important; }
+
+
+
+
 .eyebrow-Ejf06y.defaultColor-HXu-5n.bodyTitle-2Az3VQ, 
 .note-Go5ZP2,
-.footer-3naVBw
+.footer-3naVBw,
+.premiumTab-39eQzY,
+.item-3XjbnG[ aria-controls="nitro-server-boost-tab" ],
+.item-3XjbnG[ aria-controls="subscriptions-tab" ],
+.item-3XjbnG[ aria-controls="library-inventory-tab" ],
+.item-3XjbnG[ aria-controls="billing-tab" ],
+.item-3XjbnG[ aria-controls="billing-tab" ]+.separator-2wx7h6,
+.header-2Kx1US:nth-child(9),
+.note-2C4pGr,
+.description-30xx7u,
+.divider-_0um2u,
+.button-f2h6uQ[ aria-label="Send a gift" ],
+.button-f2h6uQ[ aria-label="Boost this server" ],
+.channel-1Shao0.container-32HW5s[aria-posinset="2"],
+.searchBar-3TnChZ,
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Notification Settings"],
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Hide Member List"],
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"],
+.icon-2xnN2Y[ aria-hidden="true" ],
+.children-3xh0VB::after,
+.attachWrapper-3slhXI,
+.option-ayUoaq::after,
+.searchLearnMore-1gNL3A
 { display: none; }
+
+
+
+
+.svg-2azL_l rect 
+{ mask: var( --avatar-shape );
+  stroke-width: 2px;
+  stroke: var( --bg1 ); }
+
+.avatar-2e8lTP.clickable-31pE3P
+{ margin-top: 6px;
+  width: 2em;
+  height: 2em; }
+
+.channelName-3KPsGw,
+.subtitle-3PyFgf
+{ text-align: center; }
+
+.arrow-2HswgU
+{ display: none; }
+
+.containerDefault-3TQ5YN
+{ top: 3px; }
+
+.container-1zDvAE
+{ padding: 12px; }
+
+.placeholder-1rCBhr,
+.textArea-2CLwUE
+{ align-content: center; }
+
 .emoji.jumboable 
 { width: 5rem;
-  height 5rem;
+  height: 5rem;
   min-height: 5rem; }
  
 .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS.alt-1dvXnH
 { font-size: 10px; }
 
-.wrapper-1_HaEi svg {
-    overflow: hidden;
-}
+.wrapper-1_HaEi svg 
+{ overflow: hidden; }
 
 .notice-2HEN-u.colorStreamerMode-8uoRWd
 { width: flex;
   height: 30px;
   line-height: 30px;
   position: absolute;
-  right: 170px;
+  right: 380px;
   top: 8px; 
   border-radius: 4px; }
-.closeButton-30b1gR,
+.closeButton-30b1gR
+{ height: 23px; 
+  line-height: 23px; 
+  top: 4px;
+  right: -12px; }
 .button-1iHNQ2
 { height: 23px; 
   line-height: 23px; 
-  top: 4px;}
-  
-  
-  
-  
-  
-  *
-{ border-radius: 0px !important;
-  mask: none !important; }
+  top: 4px;
+  right: 2px;}
 
-.membersWrap-3NUR2t /* hide members and reveal on hover */
+.membersWrap-3NUR2t
 { margin-right: -180px;
   transition: transform 0s;
   z-index: 10; }
@@ -56,10 +132,10 @@
 .sidebar-1tnWFu:hover
 { width:240px; }
 
-.title-31SJ6t /* make the title bar go below the channelbar */
+.title-31SJ6t
 { z-index: 1; }
 
-.form-3gdLxP /* make the text area better */
+.form-3gdLxP
 { padding: 0px; }
 .inner-NQg18Y
 { padding-top: 6px;
@@ -67,9 +143,26 @@
 .channelTextArea-1VQBuV
 { margin-bottom: 0px; }
 
+.typing-2J1mQU
+{ top: -28px;
+  left: 0px;
+  padding-top: 4px;
+  z-index: 1; }
+.newMessagesBar-1hF-9G.barBase-3xxDXu
+{ width: 50%; 
+  left: 50%; 
+  border-radius: 0px 0px 0px 10px !important;
+  z-index: 99; }
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu
+{ width: 46%; 
+  border-radius: 0px 10px 0px 0px !important;
+  right: 0px;
+  z-index: 99; }
 
 
-:root /* colors */
+
+
+:root
 {
   --bg1: #0a1013;
   --bg2: #151b1f;
@@ -93,20 +186,21 @@
   --activity-card-background: var(--bg2); 
 }
 
+
+
+
 .message-2CShn3.cozyMessage-1DWF9U.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz,
 .title-31SJ6t.container-ZMc96U.themed-Hp1KC_,
 .tabBody-2dgbAs,
 .embedMedia-1mdWSP.embedImage-2Ynqkh,
-.theme-dark.container-ZMc96U.themed-Hp1KC_
+.theme-dark.container-ZMc96U.themed-Hp1KC_,
+.container-1zDvAE
 { background-color: var( --bg1 ); }
 
 .embedWrapper-1MtIDg,
 .body-2WIpo7,
-.popout-3gby1q,
+.popout-3gby1q
 { background-color: var( --bg2 ); }
-
-.content-1gYQeQ::after
-{ background-color: #F00; }
 
 .message-2CShn3.mentioned-Tre-dv.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz,
 .message-2CShn3.mentioned-Tre-dv.wrapper-30-Nkg::before
@@ -115,59 +209,3 @@
 .item-1OdjEX.labelContainer-2vJzYL.colorDefault-CDqZdO.focused-3qFvc8,
 .newMessagesBar-1hF-9G.barBase-3xxDXu
 {  background-color: var( --background-accent ); }
-
-.typing-2J1mQU
-{ top: -28px;
-  left: 0px;
-  padding-top: 4px;
-  z-index: 1; }
-
-.newMessagesBar-1hF-9G.barBase-3xxDXu
-{ width: 50%; 
-  left: 50%; 
-  border-radius: 0px 0px 0px 10px !important;
-  z-index: 99; }
-  
-.jumpToPresentBar-1cEnH0.barBase-3xxDXu
-{ width: 46%; 
-  border-radius: 0px 10px 0px 0px !important;
-  right: 0px;
-  z-index: 99; }
-
-.channel-1Shao0.container-32HW5s[aria-posinset="2"],
-.searchBar-3TnChZ,
-.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Notification Settings"],
-.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Hide Member List"],
-.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Help"],
-.icon-2xnN2Y[aria-hidden="true"],
-.children-3xh0VB::after,
-.button-f2h6uQ[ aria-label="Boost this server" ],
-.attachWrapper-3slhXI,
-.option-ayUoaq::after,
-.searchLearnMore-1gNL3A
-{ display: none; }
-
-.svg-2azL_l rect 
-{ mask: var( --avatar-shape );
-  stroke-width: 2px;
-  stroke: var( --bg1 ); }
-
-.icon-3AqZ2e,
-.childWrapper-1j_1ub
-{ border-radius: 0px 14px 14px 0px !important; }
-.iconBadge-32fMme
-{ border-radius: 0px 14px 0px 0px !important; }
-.avatar-b5OQ1N
-{ border-radius: 8px 0px 0px 8px !important; }
-.wrapper-28eC3z>.lowerBadge-3WTshO>.numberBadge-37OJ3S
-{ border-radius: 0px 0px 12px 0px !important; }
-.button-1EGGcP[ aria-label="Turn Off Camera" ],
-.button-1EGGcP[ aria-label="Turn On Camera" ]
-{ border-radius: 10px 0px 0px 10px !important; }
-.button-1EGGcP[ aria-label="Share Your Screen" ]
-{ border-radius: 0px 10px 10px 0px !important; }
-
-.avatar-2e8lTP.clickable-31pE3P
-{ margin-top: 6px;
-  width: 2em;
-  height: 2em; }
